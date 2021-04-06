@@ -1,0 +1,45 @@
+Test Strategy:
+
+1. Software testabilities:
+Simplicity-->         2
+Understandability-->  5
+Suitability-->        3
+Stability-->          4
+
+2. Test factors that are to be considered to test this software:
+a) Correctness--> Integration testing
+b) Authorization-->x--Authentication(security)--> Integration
+c) Continuity of Processing--> Post uat
+d) Service level
+e) Access controls--> System testing
+f) Methodology
+g) Reliability--> This factor comes in all products--> Uat
+h) Maintanable
+i) Portable
+j) Performance--> System testing
+k) Ease of Operation
+l) Integrity(How accurate the data is)--> System testing
+
+
+3. Access drivers that would influence testing:
+a) Authorization-->Quality analyst-->Validation/black box testing
+b) Correctness-->Quality analyst-->Validation/black box testing or dynamic testing
+c) Continuity of Processing-->Client/Management-->Verification
+d) Access control-->Tester
+e) Reliability-->Client/Management
+f) Performance--> Tester
+g) Integrity--> Tester
+
+
+Test Plan:
+a) Test item(Application name)
+b) Software risk issues-->Security, Performance, Testing the browser, Platform, Browser, Configuration
+c) Features to be tested--> Register user, Customer, Admin functions, Manager
+d) Features not to be tsted--> New version need not be tested
+e) Approach--> Black/White box testing
+f) Test deliverables--> Source code, Test Scenario, Test plan, Test case, Test execution,Test report, Defect report
+g) Iten pass/Fail criteria--> If it has 1 major bug, 5 minor bugs with no critical/Show stopper, the application is pass
+h) Suspension and resumption criteria--> Show stoppers in application/Non availability of resources-->When it is resolved
+i) Responsibility-->Project Manager, Test Lead, Tester, Customer
+j) Staffing and training need--> How many testers are required, Which area you need training
+k) Schedule-->Time to complete the work (2-3 weeks)
